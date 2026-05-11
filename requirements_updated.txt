@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+tqdm
+tensorboard
+ml-collections
+scipy>=1.7.0
+Pillow
+pandas
+matplotlib
+imageio
+jupyter
+ipywidgets

@@ -1,0 +1,58 @@
+# ===== 대용량 데이터 / Large files =====
+CUB_200_2011/
+pretrained/
+*.npz
+*.bin
+*.pth
+*.pt
+*.h5
+
+# ===== 학습 출력물 / Training outputs =====
+output/
+logs/
+runs/
+wandb/
+
+# ===== 가상환경 / Virtual environment =====
+TransFG_venv/
+venv/
+env/
+.env
+.venv/
+
+# ===== Python 캐시 / Python cache =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== macOS =====
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== 로컬 설정 / Local config =====
+.omc/
+.claude/
+
+# ===== PDF (md에서 재생성 가능) =====
+*.pdf
+
+# ===== 기타 / Misc =====
+*.log
+*.tmp
