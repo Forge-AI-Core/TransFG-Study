@@ -1,5 +1,7 @@
 # ===== 대용량 데이터 / Large files =====
 CUB_200_2011/
+FGVC-Aircraft/
+Stanford_Cars/
 pretrained/
 *.npz
 *.bin
@@ -15,6 +17,7 @@ wandb/
 
 # ===== 가상환경 / Virtual environment =====
 TransFG_venv/
+TransFG_aircraft_venv/
 venv/
 env/
 .env
@@ -56,3 +59,5 @@ build/
 # ===== 기타 / Misc =====
 *.log
 *.tmp
+*.backup
+*.tar.gz
