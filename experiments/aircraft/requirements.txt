@@ -1,0 +1,16 @@
+# TransFG 프로젝트 requirements (CUDA 13.0 / aarch64)
+# torch/torchvision은 cu130 전용 wheel에서 별도 설치
+# pip install "torch==2.10.0+cu130" --index-url https://download.pytorch.org/whl/cu130
+# pip install "torchvision==0.25.0+cu130" --index-url https://download.pytorch.org/whl/cu130
+
+numpy
+tqdm
+tensorboard
+ml-collections
+scipy
+Pillow
+pandas
+matplotlib
+ipywidgets
+ipykernel
+jupyter
