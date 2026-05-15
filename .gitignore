@@ -1,5 +1,6 @@
 # ===== 대용량 데이터 / Large files =====
 CUB_200_2011/
+Stanford_Cars/
 pretrained/
 *.npz
 *.bin
@@ -15,6 +16,7 @@ wandb/
 
 # ===== 가상환경 / Virtual environment =====
 TransFG_venv/
+TransFG_cars_venv/
 venv/
 env/
 .env

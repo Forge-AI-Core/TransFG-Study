@@ -1,0 +1,18 @@
+# TransFG Stanford Cars requirements (CUDA 13.0 / aarch64)
+# torch/torchvision은 cu130 전용 wheel에서 별도 설치
+# pip install "torch==2.10.0+cu130" --index-url https://download.pytorch.org/whl/cu130
+# pip install "torchvision==0.25.0+cu130" --index-url https://download.pytorch.org/whl/cu130
+
+numpy
+tqdm
+tensorboard
+ml-collections
+scipy
+Pillow
+pandas
+pyarrow                  # parquet 파일 읽기용
+huggingface_hub          # 데이터셋 다운로드용 (huggingface-cli)
+matplotlib
+ipywidgets
+ipykernel
+jupyter
